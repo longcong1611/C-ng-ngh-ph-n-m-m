@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color: red
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
