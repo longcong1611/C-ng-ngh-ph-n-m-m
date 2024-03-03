@@ -1,127 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="long.css">
 </head>
+
 <body>
-    <div class="container">
-            <div class="avatar">
-                <img src="a.jpg">
+    <div id="container">
+        <div id="profile">
+            <div id="image">
+                <img id="profile-photo" src="avatar.jpg" alt="Profile-Image">
+                <a href="#"><i class="fas fa-pen stroke-transparent"></i></a>
             </div>
-            <div class="name">
-                <h1>Do Tien Dung</h1>
-                <div class="specialize">
-                    Embedded Engineer
-                </div>
-                <ul class="contact">
-                    <li>
-                        <span>P</span>+84123456789
-                    </li>
-                    <li>
-                        <span>E</span>dotiendung111@gmail.com
-                    </li>
-                    <li>
-                        <span>W</span>resumeweb.com
-                    </li>
-                </ul>
+            <p id="name">Trần Võ Hoàng Long<br><span id="email">LongTVH.B21VT276@stu.edu.vn</span></p>
+            <div id="about">
+                <p style="display:inline;">About</p>
+                <a href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
             </div>
-            <div class="info">
+            <p id="education">University<br><strong>Posts and Telecommunications Institute of Technology</strong></p>
+            <p id="telephone">Telephone<br><strong>0376945457</strong></p>
+        </div>
+        <div id="info-cards">
+            <div class="card">
+                <p><i class="fas fa-graduation-cap stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Education</p>
                 <ul>
                     <li>
-                        From <b>Ha Noi</b> - VietNam
+                        <p class="tags">Posts and Telecommunications Institute of Technology<br><span>Electronics and
+                                Communication Engineering | <span>2021 till now</span></span></p>
+                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
                     </li>
                     <li>
-                        11/11/2003
+                        <p class="tags">Google Data Analytics Professional Certificate<br><span><span>2024</span></span>
+                        </p>
+                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
                     </li>
                     <li>
-                        Posts and Telecommunications Institute of Technology
+                        <p class="tags">Google Advanced Data Analytics Professional
+                            Certificate<br><span><span>2024</span></span>
+                        </p>
+                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
                     </li>
                 </ul>
             </div>
-            <div class="INTRO">
-                <h2>INTRO</h2>
-                Tôi là một người chăm chỉ và cầu tiến với lĩnh vực kĩ sư nhúng. Tôi mới tốt nghiệp ra trường với bằng Cử nhân chuyên ngành IOT Engineer. Bên cạnh kiến thức chuyên ngành, tôi có kinh nghiệm thực chiến hơn 6 tháng nhờ làm Thực tập sinh tại công ty X.
-                Tôi biết thiết kế  và xây dụng hệ thống IOT, kỹ năng làm việc trong các dự án IOT. Trong ngắn hạn, tôi muốn nâng cao chuyên môn và kinh nghiệm thực tế trong ngành thông qua vị trí công ty để phát triển hơn.
-            </div>
-            <div class="skills">
-                <h2>SKILLS</h2>
-                <ul>
-                    <li>C</li>
-                    <li>C++</li>
-                    <li>Assembly</li>
-                    <li>Python</li>
-                </ul>
-            </div>
-
-
-            <div class="project">
-                <h2>Project</h2>
-                <div class="item">
-                    <h4>smart home</h4>
-                    <div class="item">
-                         2023
-                    </div>
-                    <div class="web">
-                         www.cvweb.com
-                    </div>
-                    <div class="location">
-                         Embedded System Design Engineer
-                    </div>
-                    <div class="des">
-                        Xây dựng hệ thống cảm biến cho ngôi nhà 
-                         <ul>
-                             <li> thiết kế hệ thống đèn, cửa, tủ lạnh, điều hòa, tivi,..</li>
-                             <li> truy xuất dữ liệu gửi về thiết bị di động</li>
-                             <li>xây dựng hệ thống bảo mật thông tin hệ thống</li>
-                         </ul>
-                    </div>
-                </div>
-                <div class="item">
-                    <h4>smart farrm</h4>
-                    <div class="item">
-                         2024
-                    </div>
-                    <div class="web">
-                         www.cweb.com
-                    </div>
-                    <div class="location">
-                         Embedded System Design Engineer
-                    </div>
-                    <div class="des">
-                         Xây dựng hệ thống chăn nuôi lợn thông minh
-                         <ul>
-                             <li> xây dựng hệ thống cảm biến cho mỗi chuồng lợn</li>
-                             <li>xây dựng cơ sở dữ liệu truy xuất cho mỗi cá thể lợn</li>
-                             <li>cải thiện chất lượng lợn, tăng năng xuất, ngừa dịch bệnh, giảm chi phí nuôi</li>
-                         </ul>
-                    </div>
-                </div>
-                <div class="item">
-                    <h4>hệ thống cảm biến môi trường</h4>
-                    <div class="item">
-                         2024
-                    </div>
-                    <div class="web">
-                         www.cweb.com
-                    </div>
-                    <div class="location">
-                         Embedded System Design Engineer
-                    </div>
-                    <div class="des">
-                         Xây dựng và đánh giá chất lượng môi trường
-                         <ul>
-                             <li> xây dựng hệ thống cảm biến cho mỗi trường trong một khu vực</li>
-                             <li>thiết kế thang đo cảnh báo cề mức độ ô nhiễm môi trường</li>
-                             <li>cảnh báo các khu vực ô nhiễm cho người dùng</li>
-                         </ul>
-                    </div>
-                </div>
-            </div>
-     </div>
-    
+        </div>
+    </div>
 </body>
+
 </html>
