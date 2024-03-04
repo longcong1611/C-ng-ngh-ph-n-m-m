@@ -4,17 +4,20 @@ body{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: #060c21;
+    background-image: url(b.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     font-family:'Times New Roman', Times, serif;
 }
 .container{
+    margin:auto;
     position: relative;
     width: 90%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     grid-template-rows: auto;
-    grid-gap: 0 50px;
-    left: 90px;
+    grid-gap: 0 40px;
 }
 .container .box{
     position: relative;
